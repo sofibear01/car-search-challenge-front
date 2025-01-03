@@ -51,7 +51,6 @@ const CarsPage: React.FC = () => {
 
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-primary p-6 relative">
-            {/* Mapa */}
             <div className={`w-full max-w-4xl bg-secondary rounded-lg shadow-lg p-6 mx-4 ${selectedPublication ? "filter blur-sm" : ""}`}>
                 <h1 className="text-2xl font-semibold text-center text-primary mb-4">Mapa de autos en venta</h1>
                 <GoogleMap
