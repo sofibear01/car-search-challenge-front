@@ -33,7 +33,7 @@ const AgencyPage: React.FC = () => {
       }
       
       setTimeout(() => {
-        navigate('/home');
+        navigate('/');
       }, 3000);
 
     } catch (error) {
